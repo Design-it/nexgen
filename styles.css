@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #4CAF50;
+  background-color: #1189df;
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -61,7 +61,7 @@ input, textarea {
 
 button {
   padding: 10px;
-  background-color: #4CAF50; /* Same green as your header */
+  background-color: #1189df; /* Same green as your header */
   color: white;
   border: none;
   border-radius: 5px; /* Rounded corners */
