@@ -11,6 +11,10 @@ header {
   color: white;
   padding: 10px 0;
   text-align: center;
+} 
+
+header img {
+  margin-bottom: 10px;   /* space below the logo */
 }
 
 nav ul {
@@ -35,4 +39,57 @@ section {
 
 h2 {
   color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Set a max width for the form */
+  margin: 20px auto; /* Center the form */
+}
+
+label {
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px; /* Space between inputs */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50; /* Same green as your header */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#services {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+#services h2 {
+  text-align: center;
+}
+
+#services ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+}
+
+#services li {
+  margin: 15px 0; /* Space between items */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
 }
